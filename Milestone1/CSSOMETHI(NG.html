@@ -17,6 +17,24 @@
    <a href="#projects"> Projects! </a>
 
 </div>
+<style>
+@media print{
+  iframe,#menu, form{
+    display:none;
+  }
+
+  #yes{
+    height:200;
+    margin:0 auto;
+    display:block;
+  }
+  img{
+    height:200;
+    margin:0 auto;
+    display:block;
+  }
+}
+</style>
 </head>
 <body>
    <div class="CENTERED">
@@ -39,7 +57,7 @@
 <br>
 
   <div>
-    <form action ="">
+    <form id="forms" action ="">
       Does this fill the requirement of using a form tag?
       <div class = "form-group">
         <label> Yes</label>

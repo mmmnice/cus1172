@@ -1,8 +1,11 @@
+
 .CENTERED {
   width: 50%;
   margin-left: auto;
   margin-right: auto
   }
+
+
 body{
   background-color:coral;
 }
@@ -21,7 +24,7 @@ li{
   font-style: bold;
 }
 a{
-  font-family: "Comic Sans MS", cursive, sans-serif
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 form{
