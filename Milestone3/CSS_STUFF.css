@@ -2,9 +2,11 @@
 .CENTERED {
   width: 50%;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
   }
-
+.col-sm-6{
+  text-align:center;
+}
 
 body{
   background-color:coral;
