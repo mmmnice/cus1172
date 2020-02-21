@@ -47,7 +47,7 @@ table,td,th,tr{
 img{
   display:block;
   margin:0 auto;
-  height:200
+  height:180;
 }
 div{
   font-size: 10px;
@@ -57,4 +57,13 @@ span{
 }
 #menu{
   display:inline-block;
+}
+#menuu{
+  margin-left:25px;
+}
+.dropdown-menu{
+  margin-left:25px;
+}
+#mov, #tv{
+  font-size:12px
 }

@@ -1,4 +1,5 @@
 <html>
+  <div class="container-fluid">
 <head>
 <title> CUS WEB PAGE DEVELOPMENT </title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -10,10 +11,10 @@
 
 <div id = "menu">
   <nav class="navbar-fixed-top">
-    <div class="container-fluid">
+    <div class="row">
       <ul class ="nav navbar-nav">
         <li class= "dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#"> <span style="font-weight:bold, background-color: white">Click here for the menu!</span>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"> <span id="menuu" style="font-weight:bold">Click here for the menu!</span>
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#profile">Profile!</a></li>
@@ -59,7 +60,7 @@
 
 
 <div id="profile">
-  <div class="container-fluid">
+  <div class="row">
     <div class = "jumbotron">
   <h1> Profile </h1>
   <img id="yes" class="img-circle" src ="profile.png"/><!--width="20%" style="display:block; margin-left:auto; margin-right:auto;"-->
@@ -99,7 +100,7 @@
 </div>
   <br>
 <div id="education">
-  <div class = "container-fluid">
+  <div class = "row">
   <h1> Education </h1>
     <H3> St. John's University </H3>
     <li> Bachelor's in Computer Science
@@ -110,7 +111,7 @@
   <br>
 
 <div id="experience">
-  <div class ="container-fluid">
+  <div class ="row">
     <H1> Experience </h1>
 
       <h3>CUS1166 FINAL LAB:</h3>
@@ -150,7 +151,6 @@
     <br>
   <div id="interersts">
     <h1> Interests </h1>
-    <div class = "container-fluid">
       <div class ="row">
         <div class = "col-sm-6">
           <h3>  <li> Running </li></h3>
@@ -164,11 +164,10 @@
         </div>
       </div>
   
-</div>
   </div>
     <br>
   <div id="favorites">
-    <div class = "container-fluid">
+    <div class = "row">
     <h1> Favorites </h1>
       <h3>FAV SONG:</h3>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/8mtA9GvpzwU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -176,16 +175,15 @@
       <br>
       <br>
 
-      <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-6">       <h3> FAV MOVIE: </h3>
+          <div class="col-sm-6 col-xs-6">       <h3 id="mov"> FAV MOVIE: </h3>
             <img src= "https://www.gstatic.com/tv/thumb/v22vodart/160369/p160369_v_v8_an.jpg"  />
           </div>
-          <div class="col-sm-6">    <h3> FAV TV SHOW: </h3>
+          <div class="col-sm-6 col-xs-6">    <h3 id= "tv"> FAV TV SHOW: </h3>
             <img src= "https://www.gstatic.com/tv/thumb/tvbanners/17612208/p17612208_b_v8_aa.jpg"  /></div>
 
         </div>
-      </div>
+      
 
     <br>
     <br>
@@ -194,7 +192,7 @@
 
  
   <div id="website">
-    <div class = "container-fluid">
+    <div class = "row">
     <h1> Websites </h1>
       <h5 style= "text-align:center"> Click on the names of the websites to go there </h5>
       <a href= "Youtube.com">
@@ -220,7 +218,7 @@
 
 -->
   <div id ="projects2" class="carousel slide" data-ride="carousel">
-    <div class = "container-fluid">
+    <div class = "row">
       <h1> Projects</h1>
       <ol class = "carousel-indicators">
         <li data-target="#projects2" data-slide-to="0" class="active"></li>
@@ -260,4 +258,5 @@
 <br>
 </div>
 </body>
+</div>
 </html>
