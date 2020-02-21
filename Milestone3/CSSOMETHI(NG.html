@@ -8,25 +8,32 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-<div id="menu">
+<div id = "menu">
   <nav class="navbar-fixed-top">
-  <div class="container-fluid">
-  <span Style="margin-left:auto; font-weight:bold"> Menu: </span>
-<a href="#profile"> Profile! </a>
-<a href="#education"> Education! </a>
-   <a href="#experience"> Experience! </a>
-   <a href="#skills"> Skills! </a>
-   <a href="#interersts"> Interests! </a>
-   <a href="#favorites"> Favorites! </a>
-   <a href="#website"> Websites! </a>
-   <a href="#projects"> Projects! </a>
+    <div class="container-fluid">
+      <ul class ="nav navbar-nav">
+        <li class= "dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"> <span style="font-weight:bold, background-color: white">Click here for the menu!</span>
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#profile">Profile!</a></li>
+            <li><a href="#education"> Education! </a></li>
+            <li><a href="#experience"> Experience! </a></li>
+            <li><a href="#skills"> Skills! </a></li>
+            <li><a href="#interersts"> Interests! </a>
+            <li><a href="#favorites"> Favorites! </a>
+            <li><a href="#website"> Websites! </a>
+            <li><a href="#projects"> Projects! </a>
+          </ul>
+        </li>
 
-</div>
-</nav>
+      </ul>
+    </div>
+  </nav>
 </div>
 <style>
 @media print{
-  iframe,#menu, form{
+  iframe,#menu2, form{
     display:none;
   }
 
@@ -53,6 +60,7 @@
 
 <div id="profile">
   <div class="container-fluid">
+    <div class = "jumbotron">
   <h1> Profile </h1>
   <img id="yes" class="img-circle" src ="profile.png"/><!--width="20%" style="display:block; margin-left:auto; margin-right:auto;"-->
   <br>
@@ -60,6 +68,7 @@
   <H3> Name: </H3> Raymond Limbog
     <br>
     <H3> Major: </H3> Computer Science
+  </div>
   </div>
 <br>
 <br>
@@ -198,7 +207,7 @@
   </div>
   </div>
     <br>
-  <div id="projects">
+  <!--<div id="projects">
     <div class ="container-fluid">
     <h1> Projects </h1>
       <h2><a href= "https://mmmnice.github.io/cus1172/Milestone1/CSSOMETHI(NG.html" target="_blank"><li> <span>Project 1: Milestone 1 </span></li> </a></h2>
@@ -209,6 +218,46 @@
   </div>
   </div>
 
+-->
+  <div id ="projects2" class="carousel slide" data-ride="carousel">
+    <div class = "container-fluid">
+      <h1> Projects</h1>
+      <ol class = "carousel-indicators">
+        <li data-target="#projects2" data-slide-to="0" class="active"></li>
+        <li data-target="#projects2" data-slide-to="1"></li>
+        <li data-target="#projects2" data-slide-to="2"></li>
+      </ol>
+      <div class ="carousel-inner">
+        <div class ="item active">
+          <h2><a href= "https://mmmnice.github.io/cus1172/Milestone1/CSSOMETHI(NG.html" target="_blank"><span>Project 1: Milestone 1 </span></ui> </a></h2>
+          <p> <ul> This project is the creation of this HTML page.  The requirements inolve all of the descriptions that are seen on this web page.  This web page also has properly structured HTML tags, such as div, span, ul, li, img, table, form, h1, p, and a.  There are also external links that open to a new tab, and a menu section on the top of the page to direct users to other sections of the page. </ul>   </p>
+
+        </div>
+        <div class ="item">
+          <h2><a href="https://mmmnice.github.io/cus1172/Milestone1/CSSOMETHI(NG.html" target="_blank"><span> Project 1: Milestone 2 </span></ui> </a></h2>
+          <p> <ul> This milestone is about the css portion of the first project.  The requirements are to simply style the profile page created in the first milestone, using CSS. There also needs to be separate files that are needed to be used for different size monitors, specifically mobile and computer screens.  If you  reviewed my profile for the first milestone, It does look relatively the same, but the requirements should be fufilled since I moved most of the stylings in the css files.
+    
+        </div>
+        <div class = "item">
+          <h2>
+            <a href="https://mmmnice.github.io/cus1172/Milestone3/CSSOMETHI(NG.html" target="_blank"><span>Project 1:Milestone 3</span></a>
+          </h2>
+          <p><ul>This milestone uses bootstrap for this web page.  The five things that I used, besides the use of containers, were the circle picture,  the dropdown for the menu, making the menu fixed to the top right of the page, the jumbotron for the profile secton, and a carousel for this project section.</ul></p>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#projects2" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#projects2" role ="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+<br>
+<br>
 </div>
 </body>
 </html>
